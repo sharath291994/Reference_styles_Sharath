@@ -121,7 +121,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout vertical-align="sup" delimiter="," prefix="[" suffix="]">
+    <layout delimiter="," prefix="[" suffix="]">
       <text variable="citation-number"/>
     </layout>
   </citation>
@@ -166,7 +166,7 @@
                 <text variable="page"/>
               </if>
               <else>
-                <text variable="DOI" prefix=", DOI:"/>
+                <text variable="DOI" prefix="DOI:"/>
               </else>
             </choose>
           </group>
