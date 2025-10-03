@@ -158,6 +158,7 @@
         </else-if>
         <else-if type="article-journal">
           <group delimiter=", ">
+            <text macro="title"/>
             <text variable="container-title" font-style="italic" form="short"/>
             <choose>
               <if variable="page">
