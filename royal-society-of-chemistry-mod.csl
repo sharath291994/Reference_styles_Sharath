@@ -125,7 +125,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography name-form="short" et-al-min="2" et-al-use-first="1" second-field-align="flush" entry-spacing="0">
+  <bibliography name-form="long" et-al-min="4" et-al-use-first="1" second-field-align="flush" entry-spacing="0">
     <layout suffix=".">
       <text variable="citation-number"/>
       <text macro="author" suffix=", "/>
